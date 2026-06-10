@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todos os Itens</title>
-    <script src="script.js"></script>
+    <title>HypeFlix - Catálogo de Filmes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+    <nav class="navbar">
+        <div class="logo">🔮 HypeFlix</div>
+        <div class="busca-container">
+            <input type="text" id="search" placeholder="Buscar filme...">
+            <button id="btnSearch">Buscar</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="header-pagina">
+            <h1>🎬 Catálogo de Filmes</h1>
+            <p>Os títulos mais populares e buscados do momento</p>
+        </header>
+
+        <p id="message"></p>
+
+        <main id="movie-list" class="grid-filmes">
+        </main>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

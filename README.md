@@ -4,12 +4,12 @@ Nesta atividade, vamos trabalhar com uma API de mercado para montar uma interfac
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
+- Nome: Oliveiros
+- Matrícula: 1662959
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - LISTA DE CARDS COM FILMES - AQUI >>
+![LISTA DE CARD COM OS FILMES](image.png)
 
-<<  COLOQUE A IMAGEM - RESULTADO DE UMA PESQUISA - AQUI >>
+![IMAGEM COM A PESQUISA DO FILME PANICO](image-1.png)
 

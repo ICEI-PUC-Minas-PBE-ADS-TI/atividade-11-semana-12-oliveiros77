@@ -1,0 +1,146 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0a0a;
+    padding: 15px 30px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.busca-container {
+    display: flex;
+    gap: 10px;
+}
+
+.busca-container input {
+    background-color: #141414;
+    border: 1px solid #2a2a2a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    width: 250px;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.busca-container input:focus {
+    border-color: #8a2be2;
+}
+
+.busca-container button {
+    background-color: #8a2be2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.busca-container button:hover {
+    transform: scale(1.05);
+    background-color: #9932cc;
+}
+
+.header-pagina {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-pagina h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.header-pagina p {
+    color: #888888;
+    margin: 0;
+}
+
+#message {
+    text-align: center;
+    color: #8a2be2;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.grid-filmes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card-filme {
+    background-color: #0a0a0a;
+    border: 1px solid #141414;
+    border-radius: 8px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.card-filme:hover {
+    transform: translateY(-5px);
+    border-color: #8a2be2;
+}
+
+.poster-filme {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 6px;
+    background-color: #141414;
+}
+
+.info-tag {
+    background-color: #8a2be2;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 12px;
+    align-self: flex-start;
+    margin: 15px 0 10px 0;
+}
+
+.titulo-filme {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    color: #ffffff;
+}
+
+.sinopse-filme {
+    font-size: 0.85rem;
+    color: #a7a7a7;
+    line-height: 1.4;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
